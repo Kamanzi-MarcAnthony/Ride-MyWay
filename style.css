@@ -1,0 +1,402 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    overflow: hidden;
+}
+
+.leftbar{
+    background: url(./images/car\ ride.png);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+    width: 65vw;
+    height: 100vh;
+}
+.intro{
+    font-family: 'Righteous', cursive;
+    margin-top: 35vh;
+    margin-left: 10%;
+    font-size: 3rem;
+    color: rgba(251, 59, 1, 0.863);
+}
+.subtext{
+    margin-left:10%;
+    font-size: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 50;
+    margin-top: -30px;
+}
+
+.rightbar{
+    background: white;
+    width: 30vw;
+    height: 100vh;
+}
+.ride, .deliver, .getpaid{
+    background: #07df7e;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-style: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-top: 15vh;
+    margin-left: 50px;
+    border-style: none;
+    border-radius: 6px;
+    
+    
+}
+.ride:hover, .getpaid:hover, .deliver:hover{
+    background: palevioletred;
+    transition:  0.4s;
+}
+.toggle{
+    margin-left: 10%;
+    
+}
+.buttons{
+    width: 250px;
+    margin: 10vh 10vw;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+h3{
+    margin-left: 170px;
+    margin-top: 30vh;
+    font-family: 'Poppins';
+    display: block;
+}
+.signup{
+    height: 50px;
+    border-radius: 30px;
+    background: cyan;
+    border-style: double;
+    border-color: cyan ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    padding-left: 85px;
+    padding-top: 10px;
+    text-decoration: none;
+
+}
+.signup:hover{
+    background: palevioletred;
+    transition:  0.4s;
+    border: none;
+    color: white;
+}
+.login:hover{
+    background: palevioletred;
+    border: none;
+    transition: 0.4s;
+}
+.login{
+    margin-top:20px;
+    height: 50px;
+    border-radius: 50px;
+    background: none;
+    border-style: double;
+    border-color: cyan ;
+    font-size: 1.1rem;
+
+}
+@media screen 
+and (max-width:800px) {
+    .container{
+    display: flex;
+    flex-direction: column;
+}
+    .leftbar{
+    background: url(./images/car\ ride\ small.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;
+    width: 100vw;
+    height: 40vh;
+}
+.intro{
+    font-family: 'Righteous', cursive;
+    margin-top: 11vh;
+    margin-left: 5%;
+    font-size: 30px;
+    color:
+    goldenrod;
+}
+.subtext{
+    margin-top: 20px ;
+    margin-left:5%;
+    font-size: 15px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 50;
+    margin-top: -30px;
+}
+
+    .rightbar{
+    background: white;
+    width: 100vw;
+    height: 60vh;
+}
+    .ride, .deliver, .getpaid{
+    background: #07df7e;
+    color: white;
+    font-style: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 10px;
+    
+}
+.toggle{
+    margin-top: 0vh;
+    margin-left: 10%;   
+}
+h3{
+    margin-left: 190px;
+    margin: 10% 30%;
+    font-family: 'Poppins';
+}
+.buttons{
+    width: 250px;
+    margin: 10% 25%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.signup{
+    height: 50px;
+    border-radius: 30px;
+    background: cyan;
+    border-style: double;
+    border-color: cyan ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+
+}
+.login{
+    margin-top:20px;
+    height: 50px;
+    border-radius: 50px;
+    background: none;
+    border-style: double;
+    border-color: cyan ;
+    font-size: 1.1rem;
+
+}
+}
+
+/* Home page */
+body{
+    background: hsla(180, 100%, 25%, 0.1);
+}
+.menubar{
+    font-family: 'Poppins';
+}
+.logo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.profile{
+    padding: auto ;
+    
+    
+}
+.profile:hover{
+    Color: white;
+    font-size: 20px;
+    transition: 0.5s;
+    
+}
+.about:hover{
+    color: white;
+    transition: 0.5s;
+    font-size: 20px;
+    
+}
+.logout{
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+.logout:hover{
+    color: red;
+    transition: 0.5s;
+    font-size: 20px;
+    
+}
+.menubar{
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+    background: teal;
+    background-position: fixed;
+}
+
+H2{
+    flex: 1;
+    color: whitesmoke;
+    text-shadow:black;
+    margin-left: 20px;
+}
+p{
+    flex: 0.1
+}
+.box1{
+    background: rgb(68, 216, 216);
+    width: 13.2vw;
+    height: 100vh;
+    margin: -22vh 41.8vw;
+    border-top-left-radius: 30px;
+    z-index: 10;
+    overflow: hidden;
+}
+.side-button{
+    width: 80px;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: 10%;
+    border: none;
+    background: teal;
+    color: white;
+    font-family: 'Poppins';
+}
+.side-button:hover{
+    background: Black;
+    transition-duration: 0.5s;
+}
+.large-text{
+    margin-top: 25vh;
+    margin-left: 10px;
+    z-index: 1;
+    
+}
+.takeride{
+    font-family: 'Poppins';
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    color: purple;
+    
+}
+.view{
+    background: teal;
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    width: 120px;
+    margin-left: 20%;
+    margin-top: 15vh;
+}
+.car{
+    margin-top: 40px;
+    margin-left:10%;
+}
+.offer{
+    margin-top: 40px;
+    margin-left:5%;
+}
+.pool{
+    margin-top: 40px;
+    margin-left:13%;
+}
+.view2{
+    background: teal;
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    width: 120px;
+    margin-left: 20%;
+    margin-top: 18vh;
+}
+.view3{
+    background: teal;
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    width: 120px;
+    margin-left: 20%;
+    margin-top: 40vh;
+}
+
+.box1:hover{
+    transition: 0.5s;
+    transform:translateY(-130px) ;
+}
+.box2:hover{
+    transition: 0.5s;
+    transform:translateY(-130px) ;
+    
+}
+.box3:hover{
+    transition: 0.5s;
+    transform:translateY(-120px) ;
+}
+.box2{
+    background: rgba(39, 194, 0, 0.5);
+    border-radius-: 20px;
+    width: 13.2vw;
+    height: 100vh;
+    margin: 39vh 1.8vw;
+    border-top-left-radius: 30px;
+    overflow: hidden;
+}
+.box3{
+    background: rgba(255, 175, 47, 0.5);
+    width: 13.2vw;
+    height: 100vh;
+    margin: 19vh 1.9vw;
+    border-top-left-radius: 30px;
+    overflow: hidden;
+}
+.borders{
+    display: flex;
+    position: fixed;
+}
+
+
+.border-left{
+    height: 100vh;
+    width: 55vw;
+    border-right: solid rgba(0, 128, 128, 0.3) thin;
+}
+.border-left2{
+    height: 100vh;
+    width: 15vw;
+    border-right: solid rgba(0, 128, 128, 0.3) thin;
+
+}
+.border-left3{
+    height: 100vh;
+    width: 15vw;
+    border-right: solid rgba(0, 128, 128, 0.3) thin;
+
+}
+
+@media screen and (max-width:700px){
+    .menubar{
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+    background: teal;
+    background-position: fixed;
+}
+H2{
+    flex: 1;
+}
+p{
+    display: none;
+}
+}
