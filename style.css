@@ -300,13 +300,16 @@ p{
     margin-left: 20%;
     margin-top: 15vh;
 }
-.car{
+.head{
     margin-top: 20px;
     margin-left:10%;
     font-family: 'Poppins';
     color: purple;
     font-weight: bold;
     margin-left:10px;
+}
+.side-text1{
+    display: none;
 }
 .carr{
     margin-top: 50px;
@@ -417,19 +420,17 @@ p{
 
 }
 .border-left{
-    z-index: 2;
     margin-top: 90%;
     border-right: none;
 }
 .border-left2{
-    z-index: 2;
     
     border-right: none;
     margin-top: 50%;
     
 }
 .border-left3{
-    z-index: 3;
+    
     border-right: none;
 }
 .box1{
@@ -469,22 +470,63 @@ p{
     border-radius: 20px;
     padding-left: 10px;
 }
+.side-text1{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    height: 110px;
+    width: 160px;
+    margin-top: 13px;
+    padding: 20px;
+    font-family: 'Poppins';
+    background: chocolate;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.head{
+    font-family: 'Poppins';
+    color: purple;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.car{
+    
+    margin-left: 6%;
+    width: 500px;
+    margin-left: 5px;
+    display: flex;
+}
+.side-text1{
+    display: inline-block;
+    font-size: 14px;
+    height: 110px;
+    width: 160px;
+    margin-left: 53px;
+    
+}
 .pool{
     display: flex;
     margin-left: 6%;
     width: 700px;
 }
 .view3{
-    margin-top: 30%;
+    margin-top: 20%;
     width: 340px;
     align-items: center;
     margin-left: 10%;
 }
 .view2{
-    margin-top: 30%;
+    margin-top: 10%;
     width: 340px;
     align-items: center;
-    margin-left: 10%;
+    margin-left: 5%;
+}
+.view{
+    margin-top: 0%;
+    width: 450px;
+    align-items: center;
+    margin-left: 5%;
 }
 
 .box1:hover{
@@ -492,7 +534,7 @@ p{
 }
 .box2:hover{
     transform: translateY(-200px);
-    z-index: ;
+    
     
 }
 .box3:hover{
