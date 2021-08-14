@@ -301,8 +301,15 @@ p{
     margin-top: 15vh;
 }
 .car{
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left:10%;
+    font-family: 'Poppins';
+    color: purple;
+    font-weight: bold;
+    margin-left:10px;
+}
+.carr{
+    margin-top: 50px;
 }
 .offer{
     margin-top: 40px;
@@ -481,16 +488,16 @@ p{
 }
 
 .box1:hover{
-    z-index: 5;
     transform: translateY(-200px);
 }
 .box2:hover{
     transform: translateY(-200px);
-    z-index: 4;
+    z-index: ;
+    
 }
 .box3:hover{
     transform: translateX(-200px);
-    z-index: 3;
+    
 }
 
 .takeride{
