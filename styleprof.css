@@ -124,6 +124,11 @@ body{
     border-radius: 10px;
     background: white;
 }
+.rating:hover, .riderequests:hover, .friends:hover, .followers:hover, .following:hover{
+    background: navy;
+    color: white;
+    transition-delay: ease-in 1s;
+}
 .other{
     display: flex;
 }
