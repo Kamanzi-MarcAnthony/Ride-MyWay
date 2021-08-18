@@ -1,0 +1,177 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.topbg{
+    width: 100vw;
+    height: 29vh;
+    background: rgba(0, 128, 128, 0.5);
+    background-position: fixed ;
+    z-index: 1;
+}
+
+.dp{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-top: -80px;
+    margin-left: 6vw;
+    border: solid white 8px;
+    background: navy;
+    z-index: 2;
+}
+
+.nametag{
+    margin-top: -110px;
+    margin-left: 21vw;
+}
+.username{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.description{
+    color: green;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.card1, .card2{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 150px;
+    margin: 20px 50px;
+    border-radius: 4px;
+    background:rgba(0, 128, 128, 0.2);
+    border: solid black 1px;
+}
+.card2{
+    margin-top: 10px;
+}
+.card3{
+    display: flex;
+    width: 600px;
+    height: 320px ;
+    background:rgba(0, 128, 128, 0.2);
+    border-radius: 8px;
+    margin-left: -25px;
+    border: solid black 1px;
+    
+}
+
+.contents1{
+    text-align: center;
+    margin-top: -5px;
+}
+.contents2{
+    text-align: center;
+    margin-top: 10px;
+}
+.friends, .followers, .following{
+    width: 230px;
+    height: 80px;
+    margin: 20px 30px;
+    border-radius: 10px;
+    background: white;
+}
+.friends-contents, .followers-contents, .following-contents{
+    padding-left: 30%;
+    margin-top: -10px;
+
+    
+    
+
+}
+#friends{
+    margin-top: -20px;
+    color: navy;
+}
+#followers{
+    margin-top: -20px;
+    color: rgb(0, 160, 0);
+}
+#following{
+    margin-top: -20px;
+    color: red;
+}
+.infriends{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.infollowers{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.infollowing{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.figure{
+    font-weight: bolder;
+    margin-top: -10px;
+}
+.rating, .riderequests{
+    width: 230px;
+    height: 80px;
+    margin: 20px -10px;
+    border-radius: 10px;
+    background: white;
+}
+.other{
+    display: flex;
+}
+
+.circle{
+    background: none;
+    border: solid 10px red;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+    margin-left: 10%;
+}
+.rate{
+    text-align: center;
+    margin-top: 30%;
+    font-size: 35px;
+}
+.inrating{
+    text-align: center;
+    align-items: center;
+}
+.stars{
+    display: flex;
+    margin-left: 5%;
+    justify-content: space-around;
+}
+#colored{
+    color: gold;
+}
+#uncolored{
+    color: #bebcbc;
+}
+.req{
+    text-align: center;
+}
+.riderequests-contents{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -18px;
+    margin-left: 40px;
+}
+#online{
+    color: green;
+}
+#center{
+    color: gold;
+    margin-left: 35%;
+    margin-top: 10px;
+}

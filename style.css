@@ -290,7 +290,7 @@ p{
     
 }
 .view{
-    background: teal;
+    background: rgb(0, 128, 128);
     border: none;
     border-radius: 20px;
     height: 50px;
