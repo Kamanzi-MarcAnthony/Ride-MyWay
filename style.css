@@ -206,6 +206,7 @@ body{
 .menubar{
     font-family: 'Poppins';
     height: 10vh;
+    
 }
 .nav-links{
     display: flex;

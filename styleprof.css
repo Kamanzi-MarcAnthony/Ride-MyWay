@@ -68,7 +68,7 @@ body{
 }
 .contents2{
     text-align: center;
-    margin-top: 10px;
+    margin-top: -5px;
 }
 .friends, .followers, .following{
     width: 230px;

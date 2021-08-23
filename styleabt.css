@@ -1,0 +1,107 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.topbg{
+    height: 40vh;
+    width: 100vw;
+    background: teal;
+    margin-top:-20px;
+    padding-top: 10px;
+    
+}
+.navigation{
+    margin-left: 60vw;
+    margin-top: 10px;
+}
+.nav-links{
+    display: flex;
+    list-style:none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:15px;
+    justify-content:space-around;
+}
+
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+}
+.nav-links li a:hover{
+    color: black;
+    transition: ease 0.2s;
+}
+
+.heading{
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+}
+.red{
+    color: black;
+}
+.white{
+    color: white;
+    margin-left: 10px;
+}
+.green{
+    color: darkgreen;
+    margin-left: 10px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    background: teal;
+}
+.box1, .box2, .box3{
+    background: rgba(0, 0, 0, 0.5);
+    height: 250px;
+    width: 500px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.box1:hover, .box2:hover, .box3:hover{
+    background: black;
+    transition: ease-out;
+    transition-duration: 0.4s;
+}
+.box2{
+    background: teal;
+    padding: 50px;
+}
+.box1{
+    background:teal;
+    margin-left: -10px;
+    padding: 50px;
+}
+.box3{
+    background: teal;
+    padding: 50px;
+}
+.des{
+    color: white;
+    text-align: center;
+    text-align: justify;
+}
+.nus{
+    color: white;
+    margin-top: 20px;
+}
+.footer{
+    background: teal;
+    height:10vh;
+    width: 100vw;
+    margin-top:-0.4px;
+    padding-top: 1px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    
+}
